@@ -37,4 +37,4 @@ def elapsed_time_in_minutes(number_of_layers:int, elapsed_bake_time: int) -> int
     Returns:
         int: Total elapsed time spent cooking the lasagna.
     """
-    return elapsed_bake_time + preparation_time_in_minutes(number_of_layers)
+    return preparation_time_in_minutes(number_of_layers) + elapsed_bake_time
