@@ -1,6 +1,6 @@
 # Concepts used
 - Constant variables
-- Arithmetic
+- Arithmetic operators
 - User-defined functions
 
 # Improvement Ideas
