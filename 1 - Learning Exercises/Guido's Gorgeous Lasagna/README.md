@@ -2,6 +2,9 @@
 - Constant variables
 - Arithmetic
 - User-defined functions
+
+# Improvement Ideas
+- Contain functions within a Class - Enables the use of `__init__()` or Class variables.
 # Exercise Instructions
 
 You're going to write some code to help you cook a gorgeous lasagna from your favorite cookbook.
