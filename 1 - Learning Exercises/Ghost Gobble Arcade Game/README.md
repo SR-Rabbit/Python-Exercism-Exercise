@@ -1,3 +1,8 @@
+# Concepts used
+- User-defined functions
+- Boolean
+- Logical operators
+
 # Exercise Instructions
 In this exercise, you need to implement some rules from Pac-Man, the classic 1980s-era arcade-game.
 
