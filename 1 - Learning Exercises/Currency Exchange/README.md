@@ -1,3 +1,13 @@
+# Concepts used
+- Functions
+- User-defined functions
+- Arithmetic operators
+
+## Supplement
+Question 6 can be written in a single line. 
+However for the purposes of readability; multiple lines and variables are used instead.
+The single line solution is supplemented and commented out.
+
 # Exercise Instructions
 Your friend Chandler plans to visit exotic countries all around the world. Sadly, Chandler's math skills aren't good. He's pretty worried about being scammed by currency exchanges during his trip - and he wants you to make a currency calculator for him. 
 
