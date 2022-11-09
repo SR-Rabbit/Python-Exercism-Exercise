@@ -1,5 +1,5 @@
 def is_criticality_balanced(temperature: int, neutrons: int) -> bool:
-    """Takes 2 parameters and returns a boolean for if the reactor is in criticality or not.
+    """Takes 2 arguments and returns a boolean for if the reactor is in criticality or not.
 
     Args:
         temperature (int): The temperature of the nuclear reactor in Kelvin.
@@ -16,7 +16,7 @@ def is_criticality_balanced(temperature: int, neutrons: int) -> bool:
 
 
 def reactor_efficiency(voltage: int, current: int, theory_max_power: int) -> str:
-    """Takes 3 parameters and determines the power efficiency of the reactor.
+    """Takes 3 arguments and determines the power efficiency of the reactor.
 
     Args:
         voltage (int): Voltage output from the reactor.
@@ -35,7 +35,7 @@ def reactor_efficiency(voltage: int, current: int, theory_max_power: int) -> str
 
 
 def fail_safe(temperature: int, neutrons: int, threshold: int) -> str:
-    """Takes 3 parameters and determines the status of the reactor.
+    """Takes 3 arguments and determines the status of the reactor.
 
     Args:
         temperature (int): The temperature of the nuclear reactor in Kelvin.
@@ -45,8 +45,7 @@ def fail_safe(temperature: int, neutrons: int, threshold: int) -> str:
     Returns:
         str: "LOW", "NORMAL", or "DANGER" depending on the status.
     """
-    output_ratio = (temperature * neutrons)/threshold
+    output_ratio = (temperature * neutrons) / threshold
     if output_ratio < 0.9:
         return "LOW"
     return "NORMAL" if output_ratio <= 1.1 else "DANGER"
-    

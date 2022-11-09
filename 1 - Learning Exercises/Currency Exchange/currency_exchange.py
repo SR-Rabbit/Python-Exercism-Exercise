@@ -1,5 +1,5 @@
 def exchange_money(budget: float, exchange_rate: float) -> float:
-    """Takes two parameters and returns the value of the exchanged currency.
+    """Takes 2 arguments and returns the value of the exchanged currency.
 
     Args:
         budget (float): The amount planned to be exchanged.
@@ -12,7 +12,7 @@ def exchange_money(budget: float, exchange_rate: float) -> float:
 
 
 def get_change(budget: float, exchanging_value: float) -> float:
-    """Takes two parameters and returns the amount of money that is left from the budget.
+    """Takes 2 arguments and returns the amount of money that is left from the budget.
 
     Args:
         budget (float): The amount of money before exchange.
@@ -25,7 +25,7 @@ def get_change(budget: float, exchanging_value: float) -> float:
 
 
 def get_value_of_bills(denomination: int, number_of_bills: int) -> int:
-    """Takes two parameters and returns the total value of the bills received from the exchange.
+    """Takes 2 arguments and returns the total value of the bills received from the exchange.
 
     Args:
         denomination (int): The value of a single bill or unit.
@@ -38,7 +38,7 @@ def get_value_of_bills(denomination: int, number_of_bills: int) -> int:
 
 
 def get_number_of_bills(budget: float, denomination: int) -> int:
-    """Takes two parameters and returns the number of bills that can be exchanged within the budget.
+    """Takes 2 arguments and returns the number of bills that can be exchanged within the budget.
 
     Args:
         budget (float): The amount planned to be exchanged.
@@ -51,7 +51,7 @@ def get_number_of_bills(budget: float, denomination: int) -> int:
 
 
 def get_leftover_of_bills(budget: float, denomination: int) -> float:
-    """Takes two parameters and returns the remainder or leftover amount that cannot be exchanged.
+    """Takes 2 arguments and returns the remainder or leftover amount that cannot be exchanged.
 
     Args:
         budget (float): The amount planned to be exchanged.
@@ -63,8 +63,10 @@ def get_leftover_of_bills(budget: float, denomination: int) -> float:
     return budget % denomination
 
 
-def exchangeable_value(budget: float, exchange_rate: float, spread: int, denomination: int) -> int:
-    """Takes four parameters and returns maximum value received after exchange rate and spread.
+def exchangeable_value(
+    budget: float, exchange_rate: float, spread: int, denomination: int
+) -> int:
+    """Takes 4 arguments and returns maximum value received after exchange rate and spread.
 
     Args:
         budget (float): The amount planned to be exchanged.

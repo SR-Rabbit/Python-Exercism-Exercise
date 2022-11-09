@@ -1,5 +1,5 @@
 def eat_ghost(power_pellet: bool, touching_ghost: bool) -> bool:
-    """Takes two parameters to determine if Pac-Man can eat a ghost.
+    """Takes 2 arguments to determine if Pac-Man can eat a ghost.
 
     Args:
         power_pellet (bool): True if Power Pellet is active, else False.
@@ -12,7 +12,7 @@ def eat_ghost(power_pellet: bool, touching_ghost: bool) -> bool:
 
 
 def score(touching_power_pellet: bool, touching_dot: bool) -> bool:
-    """Takes two parameters and determines if Pac-Man earned a score point.
+    """Takes 2 arguments and determines if Pac-Man earned a score point.
 
     Args:
         touching_power_pellet (bool): True if Pac-Man is touching a Power Pellet, else False.
@@ -25,7 +25,7 @@ def score(touching_power_pellet: bool, touching_dot: bool) -> bool:
 
 
 def lose(power_pellet: bool, touching_ghost: bool) -> bool:
-    """Takes two parameters and determines if Pac-Man loses or not.
+    """Takes 2 arguments and determines if Pac-Man loses or not.
 
     Args:
         power_pellet (bool): True if Power Pellet is active, else False.
@@ -38,7 +38,7 @@ def lose(power_pellet: bool, touching_ghost: bool) -> bool:
 
 
 def win(eaten_all_dots: bool, power_pellet: bool, touching_ghost: bool) -> bool:
-    """Takes three parameters and determines if Pac-Man wins or not.
+    """Takes 3 arguments and determines if Pac-Man wins or not.
 
     Args:
         eaten_all_dots (bool): True if Pac-Man has eaten all the dots, else False.
