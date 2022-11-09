@@ -3,6 +3,7 @@
 - Logical operators
 - Conditional statements
 - Conditional expressions (ternary operator)
+- User-defined functions
 
 # Instructions
 In this exercise, we'll develop a simple control system for a nuclear reactor.
