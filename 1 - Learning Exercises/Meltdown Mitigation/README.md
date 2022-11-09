@@ -1,6 +1,7 @@
 # Concepts used
 - Arithmetic
 - Logical operators
+- Boolean
 - Conditional statements
 - Conditional expressions (ternary operator)
 - User-defined functions
