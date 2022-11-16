@@ -1,4 +1,13 @@
 # Concepts used
+- User-defined functions
+- String methods
+
+## Improvement Ideas
+- Make the function `replace_word_choice()` be case-insensitive, and replace word(s) regardless of its case.
+    - Or add-on the ability to do case-match and be case-sensitive.
+    - Allows it to be more in line with standard 'find & replace' features in word processors.
+- Count the number of word(s) replaced in the function `replace_word_choice()`.
+
 
 # Instructions
 In this exercise you are helping your younger sister edit her paper for school. 
