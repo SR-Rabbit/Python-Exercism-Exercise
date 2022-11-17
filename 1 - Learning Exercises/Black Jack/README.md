@@ -7,6 +7,7 @@
 - Tuples
 - Conditional statements
 - Conditional expressions (ternary operator)
+- Common sequence operations
 
 # Instructions
 In this exercise you are going to implement some rules of Blackjack, such as the way the game is played and scored.
